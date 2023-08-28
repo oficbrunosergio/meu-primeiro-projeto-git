@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    color: #ff00ff;
+    font-size: 64px; 
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-shadow: 5px 5px 10px #000000; /*Sombra no texto*/
+}
+
+p {
+
+    color: #000000;  /* Muda a cor do texto*/
+    font-size: 30px;   /* Tamanho da fonte*/
+    font-weight: 100px;   /* O peso da fonte */
+    line-height: 30px;   /*   */
+    font-family: 'Roboto', sans-serif;  /*Muda a fonte */
+    font-style: italic;   /* Italico  */
+    line-height: 50px;    /*  Altura das linhas, Vertical. */
+    letter-spacing: 50px;   /*  Espaçamendo das letras */
+    word-spacing: 40px;   /* Espaçamento entre as palavras */
+    
+    text-align: justify;    /*  Centralisar pra direita, esquerda ou centro */
+    
+    
+    /*text-transform: uppercase; --> Deixa todo texto maiuscula<--*/
+    /*text-transform: lowercase; --> Deixa todo texto minusculo<--*/
+    /*text-transform: capitalize; --> Apenas a primeira musica maiuscula<--*/
+
+
+}

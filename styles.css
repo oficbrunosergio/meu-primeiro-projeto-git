@@ -1,0 +1,78 @@
+/* CSS - FOLHA DE STILO EM CASCATA.
+EM CASO DE REPTIÇÃO DO CODIGO QUEM VAI PREVALECER É
+O ULTIMO CODIGO DIGITADO, EM CASO DE DUVIDA VÁ ATÉ SEU NAVEGADOR
+E COM O BOTÃO DIREITO DO MAUSE SELECIONE A OPÇÃO (INSPECIONAR).
+
+
+
+EXITE VARIAS MANEIRA PARA FAZER A MODIFICAÇÕES DE CORES NO CSS*/
+
+
+
+/* POR class REPRESENTADO POR (#) OU id REPRESENTADO POR (.) */
+/* PODE SER FEITO TBM NO MODO class SEPARANDO-AS COM VIRGULA. */
+
+/* A MESCLAGEM DE CORES PODE SER FEITA EM (RGB) OU (HEXIDECIMAL)
+NO ENTANTO, EXISTE VARIOS SITE QUE FORNESCE AS PALETAS DE CORES JÁ PRONTA 
+CONFORME DESEJADO.
+
+*/
+
+
+.botoes {
+    color: white;
+    background: chocolate;
+}
+
+#textoadicional {
+    color: green;
+    background: yellow;
+
+}
+
+#titulo {
+    color: white;
+    background: black;
+
+}
+
+
+
+
+h1 {
+    color: blue;
+    background: black;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+button {
+    background: green;
+    border-color: darkgreen;
+}
+
+/* 
+    UNIDADE DE MEDIDAS
+
+      -> ABSOLUTAS
+        
+        px (pixels) 1/100 polegada 0,254mm <-- A mais usada por todos os programadores.
+        in (inches/polegadas)
+        cm / mm (centimetro / milimetro)
+
+        ->RELATIVAS
+        % calcula o tamanho relativo ao elemento pai
+        vw (view width) 1vw é 1% da largura da janela do navegador
+        vh -> é uma unidade relativa ao elemento pai
+        rem -> é uma unidade relativa ao elemento raiz
+
+
+
+
+
+
+
+*/
